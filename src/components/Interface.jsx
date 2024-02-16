@@ -50,10 +50,10 @@ const AboutSection = (props) => {
       <h1 className="text-4xl md:text-6xl font-extrabold leading-snug mt-8 md:mt-0">
         Hi, I'm
         <br />
-        <span className="bg-white px-1 italic">Daniel Conte</span>
+        <span className=" px-1 italic">Daniel Conte</span>
       </h1>
       <motion.p
-        className="text-lg text-gray-600 mt-4"
+        className="text-lg text-black mt-4"
         initial={{
           opacity: 0,
           y: 25,
@@ -69,7 +69,7 @@ const AboutSection = (props) => {
       >
         I am a creative fullstack web developer
         <br />
-        Come check out some of my stuff!
+        Come check out some of my work!
       </motion.p>
       <motion.button
         onClick={() => setSection(3)}
@@ -109,6 +109,10 @@ const skills = [
   },
   {
     title: "HTML/CSS",
+    level: 100,
+  },
+  {
+    title: "Java",
     level: 100,
   },
   {

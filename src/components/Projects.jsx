@@ -19,6 +19,12 @@ export const projects = [
     image: "projects/Logo.jpg",
     description: "A multi-vendor marketplace and social media hub",
   },
+  {
+    title: "2 Player Wordle",
+    url: "https://github.com/daniscodes/two-player-wordle",
+    image: "projects/wordle.png",
+    description: "A Wordle app where friends can enter the same room and play head to head",
+  },
 
 ];
 

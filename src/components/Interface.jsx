@@ -50,7 +50,7 @@ const AboutSection = (props) => {
       <h1 className="text-4xl md:text-6xl font-extrabold leading-snug mt-8 md:mt-0">
         Hi, I'm
         <br />
-        <span className="bg-white px-1 italic">Wawa Sensei</span>
+        <span className="bg-white px-1 italic">Daniel Conte</span>
       </h1>
       <motion.p
         className="text-lg text-gray-600 mt-4"
@@ -67,9 +67,9 @@ const AboutSection = (props) => {
           delay: 1.5,
         }}
       >
-        I make YouTube videos to help developers
+        I am a creative fullstack web developer
         <br />
-        learn how to build 3D apps
+        Come check out some of my stuff!
       </motion.p>
       <motion.button
         onClick={() => setSection(3)}
@@ -104,30 +104,30 @@ const skills = [
     level: 90,
   },
   {
-    title: "Nodejs",
+    title: "Node & Express",
     level: 90,
   },
   {
-    title: "Typescript",
-    level: 60,
+    title: "HTML/CSS",
+    level: 100,
   },
   {
-    title: "3D Modeling",
-    level: 40,
+    title: "SQL/Postgres",
+    level: 80,
   },
 ];
 const languages = [
   {
-    title: "🇫🇷 French",
+    title: "🇨🇦 English",
     level: 100,
   },
   {
-    title: "🇺🇸 English",
-    level: 80,
+    title: "🇮🇹 Italian",
+    level: 100,
   },
   {
-    title: "🇯🇵 Japanese",
-    level: 20,
+    title: "🇧🇷 Portuguese",
+    level: 10,
   },
 ];
 

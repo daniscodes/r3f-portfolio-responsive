@@ -184,7 +184,7 @@ export const Experience = (props) => {
               transparent
               distort={0.4}
               speed={4}
-              color={"red"}
+              color={"violet"}
             />
           </mesh>
         </Float>
@@ -195,8 +195,8 @@ export const Experience = (props) => {
               opacity={0.8}
               transparent
               distort={1}
-              speed={5}
-              color="yellow"
+              speed={4}
+              color="purple"
             />
           </mesh>
         </Float>
@@ -206,9 +206,9 @@ export const Experience = (props) => {
             <MeshWobbleMaterial
               opacity={0.8}
               transparent
-              factor={1}
+              factor={3}
               speed={5}
-              color={"blue"}
+              color={"indigo"}
             />
           </mesh>
         </Float>

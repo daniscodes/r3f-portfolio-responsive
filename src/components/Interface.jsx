@@ -100,8 +100,8 @@ const skills = [
     level: 80,
   },
   {
-    title: "React / React Native",
-    level: 90,
+    title: "React",
+    level: 100,
   },
   {
     title: "Node & Express",
@@ -113,7 +113,7 @@ const skills = [
   },
   {
     title: "Java",
-    level: 100,
+    level: 90,
   },
   {
     title: "SQL/Postgres",
@@ -127,7 +127,7 @@ const languages = [
   },
   {
     title: "🇮🇹 Italian",
-    level: 100,
+    level: 90,
   },
   {
     title: "🇧🇷 Portuguese",
@@ -267,7 +267,7 @@ const ProjectsSection = () => {
 };
 
 const ContactSection = () => {
-  const [state, handleSubmit] = useForm("mayzgjbd");
+  const [state, handleSubmit] = useForm("xkndrpgg");
   return (
     <Section>
       <h2 className="text-3xl md:text-5xl font-bold">Contact me</h2>

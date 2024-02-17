@@ -130,8 +130,8 @@ const languages = [
     level: 90,
   },
   {
-    title: "🇧🇷 Portuguese",
-    level: 10,
+    title: "🇫🇷 French",
+    level: 65,
   },
 ];
 
